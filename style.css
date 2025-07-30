@@ -1,0 +1,66 @@
+/* General setup */
+
+.bitcount-prop-single-bit{
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('fonts/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.woff2') format('woff2'),
+        url('fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4.2rem;
+  font-family: "Bitcount Prop Single";
+  word-spacing: 0.6rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+  font-family: 'Alex Brush';
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
+
+
